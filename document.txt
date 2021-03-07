@@ -1,0 +1,38 @@
+FLEXBOX 
+
+Alineaciones con flexbox horizontal
+
+flex-direction:row;
+flex-shrink:0; respeta el tamaño
+flex-shrink:1; no respeta el tamaño
+flex-wrap:nowrap; no descienden los elementos
+flex-wrap:wrap; desciende los elementos dentro del ancho
+justify-content: space-between; alineacion entre mis elementos 
+justify-content: space-evenly; espaciado igual a cada elemento
+justify-content: space-around; comparte margen entre elementos
+
+Alineaciones con flexbox vertical
+
+flex-direction:column;
+align-items:flex-star; por defecto
+justify-content:center; centrar de forma horizontal y vertical
+
+
+row -> justify-content ----- alinea de forma horizontal
+       align-items ----- alinea de forma vertical
+
+column -> justify-content ----- alinea de forma vertical
+          align-items ----- alinea de forma horizontal
+
+align-self -> alinear a los hijos
+
+box:nth-of-type(1){ // -> pseudo clases
+    align-self: flex-start;
+}   
+
+
+***
+object-fit: cover; ->   propiedad para las imagenes 
+permite redimensionar el tamaño
+
+outline: none; -> quita bordes sombreados de un input
